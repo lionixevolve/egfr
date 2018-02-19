@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3VJN_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3VJN_A/3VJN_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3VJN_A/alignment_3VJN_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3VJN_A/alignment_3VJN_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3VJN_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:     271/301 (90.0%)
+# Similarity:   271/301 (90.0%)
+# Gaps:          28/301 ( 9.3%)
+# Score: 1402.0
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||.|   |||||||||||||||||||||||
+3VJN_A             1 EAPNQALLRILKETEFKKIKVLSS---GTVYKGLWIPEGEKVKIPVAIKE     47
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     | |||||||||||||||||||||||||||||||||||||||||.||||||
+3VJN_A            48 L-EATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFG     96
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3VJN_A            97 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    146
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3VJN_A           147 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    196
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3VJN_A           197 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    246
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+3VJN_A           247 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDDMDDVVDADEYL    296
+
+canonical        277 -    277
+                      
+3VJN_A           297 I    297
+
+
+#---------------------------------------
+#---------------------------------------

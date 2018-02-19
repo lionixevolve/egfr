@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5HG7_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5HG7_A/5HG7_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5HG7_A/alignment_5HG7_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5HG7_A/alignment_5HG7_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5HG7_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     271/283 (95.8%)
+# Similarity:   271/283 (95.8%)
+# Gaps:           9/283 ( 3.2%)
+# Score: 1412.0
+# 
+#
+#=======================================
+
+canonical          1 -LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREAT     49
+                      ||||||||||||||||||||||||||||||||||||||||||||||   
+5HG7_A             1 ALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELR---     47
+
+canonical         50 SPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDY     99
+                     ||||||||||||||||||||||||||||||||||||||.|||||||||||
+5HG7_A            48 SPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFGCLLDY     97
+
+canonical        100 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5HG7_A            98 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    147
+
+canonical        150 KITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYG    199
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+5HG7_A           148 KITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYG    197
+
+canonical        200 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCW    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+5HG7_A           198 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMRKCW    247
+
+canonical        250 MIDADSRPKFRELIIEFSKMARDPQRYL-----    277
+                     ||||||||||||||||||||||||||||     
+5HG7_A           248 MIDADSRPKFRELIIEFSKMARDPQRYLVIQGD    280
+
+
+#---------------------------------------
+#---------------------------------------

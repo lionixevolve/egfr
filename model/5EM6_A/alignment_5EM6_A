@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5EM6_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5EM6_A/5EM6_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5EM6_A/alignment_5EM6_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5EM6_A/alignment_5EM6_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5EM6_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 318
+# Identity:     258/318 (81.1%)
+# Similarity:   258/318 (81.1%)
+# Gaps:          58/318 (18.2%)
+# Score: 1327.5
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+5EM6_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     |   |||||||||||||||||||||||||||||||||||||||.||||||
+5EM6_A            51 L---TSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFG     97
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5EM6_A            98 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    147
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||.|||              |||||||||||||||||||||
+5EM6_A           148 TPQHVKITDFGRAKL--------------VPIKWMALESILHRIYTHQSD    183
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5EM6_A           184 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    233
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+5EM6_A           234 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSN    283
+
+canonical        277 ------------------    277
+                                       
+5EM6_A           284 FYEEDMDDVVDADEYLIP    301
+
+
+#---------------------------------------
+#---------------------------------------

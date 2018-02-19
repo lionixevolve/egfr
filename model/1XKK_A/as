@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 11:44:31
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/1XKK_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/1XKK_A/1XKK_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/1XKK_A/alignment_1XKK_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/1XKK_A/alignment_1XKK_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 1XKK_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 305
+# Identity:     261/305 (85.6%)
+# Similarity:   261/305 (85.6%)
+# Gaps:          44/305 (14.4%)
+# Score: 1332.5
+# 
+#
+#=======================================
+
+canonical          1 -LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREAT     49
+                      |||||||||||||||||||||||||||||||    ||||||||||||  
+1XKK_A             1 ALLRILKETEFKKIKVLGSGAFGTVYKGLWIP----VKIPVAIKELRE--     44
+
+canonical         50 SPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDY     99
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+1XKK_A            45 --KANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDY     92
+
+canonical        100 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1XKK_A            93 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    142
+
+canonical        150 KITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYG    199
+                     |||||||||||||||        |||||||||||||||||||||||||||
+1XKK_A           143 KITDFGLAKLLGAEE--------KVPIKWMALESILHRIYTHQSDVWSYG    184
+
+canonical        200 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCW    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1XKK_A           185 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCW    234
+
+canonical        250 MIDADSRPKFRELIIEFSKMARDPQRYL----------------------    277
+                     ||||||||||||||||||||||||||||                      
+1XKK_A           235 MIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMSNFYRALMDEVVDA    284
+
+canonical        277 -----    277
+                          
+1XKK_A           285 DEYLI    289
+
+
+#---------------------------------------
+#---------------------------------------

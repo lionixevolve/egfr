@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3LZB_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3LZB_A/3LZB_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3LZB_A/alignment_3LZB_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3LZB_A/alignment_3LZB_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3LZB_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 281
+# Identity:     260/281 (92.5%)
+# Similarity:   260/281 (92.5%)
+# Gaps:          20/281 ( 7.1%)
+# Score: 1348.5
+# 
+#
+#=======================================
+
+canonical          1 LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3LZB_A             1 LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATS     50
+
+canonical         51 PKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3LZB_A            51 PKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYV    100
+
+canonical        101 REHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3LZB_A           101 REHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVK    150
+
+canonical        151 ITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYGV    200
+                     ||||||                ||||||||||||||||||||||||||||
+3LZB_A           151 ITDFGL----------------KVPIKWMALESILHRIYTHQSDVWSYGV    184
+
+canonical        201 TVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWM    250
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+3LZB_A           185 TVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMRKCWM    234
+
+canonical        251 IDADSRPKFRELIIEFSKMARDPQRYL----    277
+                     |||||||||||||||||||||||||||    
+3LZB_A           235 IDADSRPKFRELIIEFSKMARDPQRYLVIQG    265
+
+
+#---------------------------------------
+#---------------------------------------

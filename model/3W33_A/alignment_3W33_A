@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3W33_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3W33_A/3W33_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3W33_A/alignment_3W33_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3W33_A/alignment_3W33_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3W33_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:     260/314 (82.8%)
+# Similarity:   260/314 (82.8%)
+# Gaps:          54/314 (17.2%)
+# Score: 1337.5
+# 
+#
+#=======================================
+
+canonical          1 --LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREA     48
+                       ||||||||||||||||||||||||||||||||||||||||||||||  
+3W33_A             1 QALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELR--     48
+
+canonical         49 TSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLD     98
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+3W33_A            49 ---KANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLD     95
+
+canonical         99 YVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQH    148
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3W33_A            96 YVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQH    145
+
+canonical        149 VKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSY    198
+                     ||||||||||||            ||||||||||||||||||||||||||
+3W33_A           146 VKITDFGLAKLL------------KVPIKWMALESILHRIYTHQSDVWSY    183
+
+canonical        199 GVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKC    248
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3W33_A           184 GVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKC    233
+
+canonical        249 WMIDADSRPKFRELIIEFSKMARDPQRYL---------------------    277
+                     |||||||||||||||||||||||||||||                     
+3W33_A           234 WMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYRA    283
+
+canonical        277 --------------    277
+                                   
+3W33_A           284 LMDDDVVDADEYLI    297
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/4R5S_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/4R5S_A/4R5S_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/4R5S_A/alignment_4R5S_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/4R5S_A/alignment_4R5S_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 4R5S_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:     267/308 (86.7%)
+# Similarity:   267/308 (86.7%)
+# Gaps:          40/308 (13.0%)
+# Score: 1385.0
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+4R5S_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4R5S_A            51 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG    100
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4R5S_A           101 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    150
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||.||||||||         |||||||||||||||||||||
+4R5S_A           151 TPQHVKITDFGRAKLLGAEE---------VPIKWMALESILHRIYTHQSD    191
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4R5S_A           192 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    241
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+4R5S_A           242 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPEDMDDV    291
+
+canonical        277 --------    277
+                             
+4R5S_A           292 VDADEYLI    299
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/2ITX_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/2ITX_A/2ITX_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/2ITX_A/alignment_2ITX_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/2ITX_A/alignment_2ITX_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 2ITX_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:     273/311 (87.8%)
+# Similarity:   273/311 (87.8%)
+# Gaps:          38/311 (12.2%)
+# Score: 1425.5
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+2ITX_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITX_A            51 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG    100
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITX_A           101 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    150
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||||||    |||||||||||||||||||||||||||||||
+2ITX_A           151 TPQHVKITDFGLAKL----EKEYHAEGGKVPIKWMALESILHRIYTHQSD    196
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITX_A           197 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    246
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+2ITX_A           247 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLMDEEDMD    296
+
+canonical        277 -----------    277
+                                
+2ITX_A           297 DVVDADEYLIP    307
+
+
+#---------------------------------------
+#---------------------------------------

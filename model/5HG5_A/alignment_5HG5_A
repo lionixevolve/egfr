@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5HG5_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5HG5_A/5HG5_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5HG5_A/alignment_5HG5_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5HG5_A/alignment_5HG5_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5HG5_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 302
+# Identity:     274/302 (90.7%)
+# Similarity:   274/302 (90.7%)
+# Gaps:          25/302 ( 8.3%)
+# Score: 1437.0
+# 
+#
+#=======================================
+
+canonical          1 ---LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELRE     47
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+5HG5_A             1 NQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELRE     50
+
+canonical         48 ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLL     97
+                     ||||||||||||||||||||||||||||||||||||||||.|||||||||
+5HG5_A            51 ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFGCLL    100
+
+canonical         98 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5HG5_A           101 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    150
+
+canonical        148 HVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWS    197
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+5HG5_A           151 HVKITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWS    200
+
+canonical        198 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVK    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+5HG5_A           201 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMRK    250
+
+canonical        248 CWMIDADSRPKFRELIIEFSKMARDPQRYL--------------------    277
+                     ||||||||||||||||||||||||||||||                    
+5HG5_A           251 CWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYR    300
+
+canonical        277 --    277
+                       
+5HG5_A           301 AL    302
+
+
+#---------------------------------------
+#---------------------------------------

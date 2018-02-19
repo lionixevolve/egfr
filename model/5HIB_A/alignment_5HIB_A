@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5HIB_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5HIB_A/5HIB_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5HIB_A/alignment_5HIB_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5HIB_A/alignment_5HIB_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5HIB_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:     270/319 (84.6%)
+# Similarity:   270/319 (84.6%)
+# Gaps:          47/319 (14.7%)
+# Score: 1407.0
+# 
+#
+#=======================================
+
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+5HIB_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
+
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+5HIB_A            51 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPF    100
+
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5HIB_A           101 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    150
+
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||.||||     ||||||||||||||||||||||||||||
+5HIB_A           151 KTPQHVKITDFGRAKLL-----EYHAEGGKVPIKWMALESILHRIYTHQS    195
+
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5HIB_A           196 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    245
+
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+5HIB_A           246 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDS    295
+
+canonical        277 -------------------    277
+                                        
+5HIB_A           296 NFYRALDMDDVVDADEYLI    314
+
+
+#---------------------------------------
+#---------------------------------------

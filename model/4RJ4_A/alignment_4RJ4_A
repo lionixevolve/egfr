@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/4RJ4_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/4RJ4_A/4RJ4_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/4RJ4_A/alignment_4RJ4_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/4RJ4_A/alignment_4RJ4_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 4RJ4_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:     258/316 (81.6%)
+# Similarity:   258/316 (81.6%)
+# Gaps:          56/316 (17.7%)
+# Score: 1327.5
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||| 
+4RJ4_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK-     49
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                       |||||||||||||||||||||||||||||||||||||||||.||||||
+4RJ4_A            50 --EATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFG     97
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4RJ4_A            98 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    147
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||.|||              |||||||||||||||||||||
+4RJ4_A           148 TPQHVKITDFGRAKL--------------VPIKWMALESILHRIYTHQSD    183
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4RJ4_A           184 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    233
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+4RJ4_A           234 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSN    283
+
+canonical        277 ----------------    277
+                                     
+4RJ4_A           284 FYEDMDDVVDADEYLI    299
+
+
+#---------------------------------------
+#---------------------------------------

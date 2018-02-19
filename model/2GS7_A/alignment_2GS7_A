@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/2GS7_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/2GS7_A/2GS7_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/2GS7_A/alignment_2GS7_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/2GS7_A/alignment_2GS7_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 2GS7_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:     272/285 (95.4%)
+# Similarity:   272/285 (95.4%)
+# Gaps:          12/285 ( 4.2%)
+# Score: 1416.5
+# 
+#
+#=======================================
+
+canonical          1 LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2GS7_A             1 LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREATS     50
+
+canonical         51 PKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2GS7_A            51 PKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDYV    100
+
+canonical        101 REHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVK    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2GS7_A           101 REHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHVK    150
+
+canonical        151 ITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYGV    200
+                     ||||||||||||||||||    ||||||||||||||||||||||||||||
+2GS7_A           151 ITDFGLAKLLGAEEKEYH----KVPIKWMALESILHRIYTHQSDVWSYGV    196
+
+canonical        201 TVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCWM    250
+                     |||||||||||||||||||||||||||||||||||||||||||||.||||
+2GS7_A           197 TVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMRKCWM    246
+
+canonical        251 IDADSRPKFRELIIEFSKMARDPQRYL--------    277
+                     |||||||||||||||||||||||||||        
+2GS7_A           247 IDADSRPKFRELIIEFSKMARDPQRYLVIQGDVVD    281
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/2ITU_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/2ITU_A/2ITU_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/2ITU_A/alignment_2ITU_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/2ITU_A/alignment_2ITU_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 2ITU_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:     266/314 (84.7%)
+# Similarity:   266/314 (84.7%)
+# Gaps:          47/314 (15.0%)
+# Score: 1379.5
+# 
+#
+#=======================================
+
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+2ITU_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
+
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITU_A            51 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF    100
+
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITU_A           101 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    150
+
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||.|||||||          ||||||||||||||||||||
+2ITU_A           151 KTPQHVKITDFGRAKLLGAE----------VPIKWMALESILHRIYTHQS    190
+
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2ITU_A           191 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    240
+
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+2ITU_A           241 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSMDEE    290
+
+canonical        277 --------------    277
+                                   
+2ITU_A           291 DMDDVVDADEYLIP    304
+
+
+#---------------------------------------
+#---------------------------------------

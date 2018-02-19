@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5C8K_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5C8K_A/5C8K_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5C8K_A/alignment_5C8K_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5C8K_A/alignment_5C8K_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5C8K_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:     258/317 (81.4%)
+# Similarity:   258/317 (81.4%)
+# Gaps:          57/317 (18.0%)
+# Score: 1327.5
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+5C8K_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     |  ||||||||||||||||||||||||||||||||||||||||.||||||
+5C8K_A            51 L--ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFG     98
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5C8K_A            99 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    148
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||.|               ||||||||||||||||||||||
+5C8K_A           149 TPQHVKITDFGRA---------------KVPIKWMALESILHRIYTHQSD    183
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5C8K_A           184 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    233
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+5C8K_A           234 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSN    283
+
+canonical        277 -----------------    277
+                                      
+5C8K_A           284 FYEEDMDDVVDADEYLI    300
+
+
+#---------------------------------------
+#---------------------------------------

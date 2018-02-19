@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5CNN_B/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5CNN_B/5CNN_B.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5CNN_B/alignment_5CNN_B
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5CNN_B/alignment_5CNN_B
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5CNN_B
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:     265/315 (84.1%)
+# Similarity:   265/315 (84.1%)
+# Gaps:          49/315 (15.6%)
+# Score: 1374.0
+# 
+#
+#=======================================
+
+canonical          1 ---LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELRE     47
+                        |||.|||||||||||||||||||||||||||||||||||||||||||
+5CNN_B             1 NQALLRQLKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELRE     50
+
+canonical         48 ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLL     97
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CNN_B            51 ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLL    100
+
+canonical         98 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CNN_B           101 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    150
+
+canonical        148 HVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWS    197
+                     |||||||||||||           ||||||||||||||||||||||||||
+5CNN_B           151 HVKITDFGLAKLL-----------GKVPIKWMALESILHRIYTHQSDVWS    189
+
+canonical        198 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVK    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CNN_B           190 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVK    239
+
+canonical        248 CWMIDADSRPKFRELIIEFSKMARDPQRYL--------------------    277
+                     ||||||||||||||||||||||||||||||                    
+5CNN_B           240 CWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYR    289
+
+canonical        277 ---------------    277
+                                    
+5CNN_B           290 ALMDEEDMDDVVDAD    304
+
+
+#---------------------------------------
+#---------------------------------------

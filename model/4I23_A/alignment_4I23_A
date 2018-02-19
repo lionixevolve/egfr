@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/4I23_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/4I23_A/4I23_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/4I23_A/alignment_4I23_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/4I23_A/alignment_4I23_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 4I23_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:     272/309 (88.0%)
+# Similarity:   272/309 (88.0%)
+# Gaps:          37/309 (12.0%)
+# Score: 1408.5
+# 
+#
+#=======================================
+
+canonical          1 --------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAI     42
+                             ||||||||||||||||||   |||||||||||||||||||||
+4I23_A             1 SGEAPNQALLRILKETEFKKIKVLGS---GTVYKGLWIPEGEKVKIPVAI     47
+
+canonical         43 KELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMP     92
+                     |||  |||||||||||||||||||||||||||||||||||||||||||||
+4I23_A            48 KEL--ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMP     95
+
+canonical         93 FGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVL    142
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4I23_A            96 FGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVL    145
+
+canonical        143 VKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQ    192
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4I23_A           146 VKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQ    195
+
+canonical        193 SDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVY    242
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4I23_A           196 SDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVY    245
+
+canonical        243 MIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL---------------    277
+                     |||||||||||||||||||||||||||||||||||               
+4I23_A           246 MIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPDMDD    295
+
+canonical        277 ---------    277
+                              
+4I23_A           296 VVDADEYLI    304
+
+
+#---------------------------------------
+#---------------------------------------

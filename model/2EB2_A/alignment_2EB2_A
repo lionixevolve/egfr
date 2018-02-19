@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/2EB2_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/2EB2_A/2EB2_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/2EB2_A/alignment_2EB2_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/2EB2_A/alignment_2EB2_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 2EB2_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:     271/310 (87.4%)
+# Similarity:   271/310 (87.4%)
+# Gaps:          38/310 (12.3%)
+# Score: 1393.0
+# 
+#
+#=======================================
+
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            ||||||||||||||||.|   ||||||||||||||||||||||
+2EB2_A             1 GEAPNQALLRILKETEFKKIKVLSS---GTVYKGLWIPEGEKVKIPVAIK     47
+
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
+                     ||| ||||||||||||||||||||||||||||||||||||||||||||||
+2EB2_A            48 ELR-ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     96
+
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2EB2_A            97 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    146
+
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||||||||| ||||||||||||||||||||||||||||||
+2EB2_A           147 KTPQHVKITDFGLAKLLGA-EKEYHAEGGKVPIKWMALESILHRIYTHQS    195
+
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+2EB2_A           196 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    245
+
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+2EB2_A           246 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPEDMDD    295
+
+canonical        277 ----------    277
+                               
+2EB2_A           296 VVDADEYLIP    305
+
+
+#---------------------------------------
+#---------------------------------------

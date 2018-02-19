@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3IKA_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3IKA_A/3IKA_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3IKA_A/alignment_3IKA_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3IKA_A/alignment_3IKA_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3IKA_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:     276/310 (89.0%)
+# Similarity:   276/310 (89.0%)
+# Gaps:          33/310 (10.6%)
+# Score: 1450.0
+# 
+#
+#=======================================
+
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+3IKA_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
+
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+3IKA_A            51 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPF    100
+
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3IKA_A           101 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    150
+
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3IKA_A           151 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    200
+
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3IKA_A           201 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    250
+
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+3IKA_A           251 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHEEDMDDV    300
+
+canonical        277 ----------    277
+                               
+3IKA_A           301 VDADEYLIPQ    310
+
+
+#---------------------------------------
+#---------------------------------------

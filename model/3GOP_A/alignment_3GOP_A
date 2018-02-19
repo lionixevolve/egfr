@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3GOP_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3GOP_A/3GOP_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3GOP_A/alignment_3GOP_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3GOP_A/alignment_3GOP_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3GOP_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 329
+# Identity:     247/329 (75.1%)
+# Similarity:   247/329 (75.1%)
+# Gaps:          81/329 (24.6%)
+# Score: 1250.5
+# 
+#
+#=======================================
+
+canonical          1 ---------------------------LLRILKETEFKKIKVLGSGAFGT     23
+                                                |||||||||||||||||    ||
+3GOP_A             1 KRTLRRLLQERELVEPLTPSGEAPNQALLRILKETEFKKIKVLG----GT     46
+
+canonical         24 VYKGLWIPEGEKVKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVC     73
+                     ||||||||||| |||||||.||      ||||||||||||||||||||||
+3GOP_A            47 VYKGLWIPEGE-VKIPVAIMEL------KANKEILDEAYVMASVDNPHVC     89
+
+canonical         74 RLLGICLTSTVQLITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGM    123
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3GOP_A            90 RLLGICLTSTVQLITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGM    139
+
+canonical        124 NYLEDRRLVHRDLAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGK    173
+                     ||||||||||||||||||||||||||||||||                  
+3GOP_A           140 NYLEDRRLVHRDLAARNVLVKTPQHVKITDFG------------------    171
+
+canonical        174 VPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISS    223
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3GOP_A           172 VPIKWMALESILHRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISS    221
+
+canonical        224 ILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDP    273
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3GOP_A           222 ILEKGERLPQPPICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDP    271
+
+canonical        274 QRYL-------------------------    277
+                     ||||                         
+3GOP_A           272 QRYLVIQGDEDSNFYRALMDVVDADEYLI    300
+
+
+#---------------------------------------
+#---------------------------------------

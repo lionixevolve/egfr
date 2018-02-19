@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/4I22_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/4I22_A/4I22_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/4I22_A/alignment_4I22_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/4I22_A/alignment_4I22_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 4I22_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:     256/315 (81.3%)
+# Similarity:   256/315 (81.3%)
+# Gaps:          56/315 (17.8%)
+# Score: 1313.0
+# 
+#
+#=======================================
+
+canonical          1 ---LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELRE     47
+                        |||||||||||||||||||||||||||||||||||||||||||||| 
+4I22_A             1 NQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELR-     49
+
+canonical         48 ATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLL     97
+                         ||||||||||||||||||||||||||||||||||||.|||||||||
+4I22_A            50 ----KANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFGCLL     95
+
+canonical         98 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4I22_A            96 DYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQ    145
+
+canonical        148 HVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWS    197
+                     ||||||||.||||             ||||||||||||||||||||||||
+4I22_A           146 HVKITDFGRAKLL-------------VPIKWMALESILHRIYTHQSDVWS    182
+
+canonical        198 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVK    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||.|
+4I22_A           183 YGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMRK    232
+
+canonical        248 CWMIDADSRPKFRELIIEFSKMARDPQRYL--------------------    277
+                     ||||||||||||||||||||||||||||||                    
+4I22_A           233 CWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYR    282
+
+canonical        277 ---------------    277
+                                    
+4I22_A           283 ALMDEEDMDDVVDAD    297
+
+
+#---------------------------------------
+#---------------------------------------

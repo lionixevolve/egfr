@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3BEL_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3BEL_A/3BEL_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3BEL_A/alignment_3BEL_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3BEL_A/alignment_3BEL_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3BEL_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:     259/298 (86.9%)
+# Similarity:   259/298 (86.9%)
+# Gaps:          39/298 (13.1%)
+# Score: 1321.5
+# 
+#
+#=======================================
+
+canonical          1 -LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELREAT     49
+                      |||||||||||||||||||||||||||||||    ||||||||||    
+3BEL_A             1 ALLRILKETEFKKIKVLGSGAFGTVYKGLWIP----VKIPVAIKEL----     42
+
+canonical         50 SPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDY     99
+                       ||||||||||||||||||||||||||||||||||||||||||||||||
+3BEL_A            43 --KANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCLLDY     90
+
+canonical        100 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    149
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3BEL_A            91 VREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTPQHV    140
+
+canonical        150 KITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVWSYG    199
+                     |||||||||||||||        |||||||||||||||||||||||||||
+3BEL_A           141 KITDFGLAKLLGAEE--------KVPIKWMALESILHRIYTHQSDVWSYG    182
+
+canonical        200 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCW    249
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3BEL_A           183 VTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMVKCW    232
+
+canonical        250 MIDADSRPKFRELIIEFSKMARDPQRYL--------------------    277
+                     ||||||||||||||||||||||||||||                    
+3BEL_A           233 MIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERNFYRALMVVDADE    280
+
+
+#---------------------------------------
+#---------------------------------------

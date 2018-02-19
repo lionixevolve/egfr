@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/4LQM_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/4LQM_A/4LQM_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/4LQM_A/alignment_4LQM_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/4LQM_A/alignment_4LQM_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 4LQM_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:     266/315 (84.4%)
+# Similarity:   266/315 (84.4%)
+# Gaps:          48/315 (15.2%)
+# Score: 1372.0
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+4LQM_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     |   ||||||||||||||||||||||||||||||||||||||||||||||
+4LQM_A            51 L---TSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     97
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4LQM_A            98 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    147
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     |||||||||||.||||||||       |||||||||||||||||||||||
+4LQM_A           148 TPQHVKITDFGRAKLLGAEE-------GKVPIKWMALESILHRIYTHQSD    190
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+4LQM_A           191 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    240
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+4LQM_A           241 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSALMDE    290
+
+canonical        277 ---------------    277
+                                    
+4LQM_A           291 EDMDDVVDADEYLIP    305
+
+
+#---------------------------------------
+#---------------------------------------

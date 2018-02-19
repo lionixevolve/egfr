@@ -13,6 +13,7 @@ do
 	#cp canonical $file
 	#cp source/emiss-finder.exe $file
 
+
 	#rm eseq_appender.exe
 	#rm eclustal-pir.exe
 	#rm $file/mode*

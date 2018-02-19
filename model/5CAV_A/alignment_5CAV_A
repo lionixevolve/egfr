@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5CAV_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5CAV_A/5CAV_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5CAV_A/alignment_5CAV_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5CAV_A/alignment_5CAV_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5CAV_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 306
+# Identity:     277/306 (90.5%)
+# Similarity:   277/306 (90.5%)
+# Gaps:          29/306 ( 9.5%)
+# Score: 1456.0
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||||||||||||||||||||||||||||||
+5CAV_A             1 EAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     50
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CAV_A            51 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG    100
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CAV_A           101 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    150
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CAV_A           151 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    200
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5CAV_A           201 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    250
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+5CAV_A           251 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDDEEDMDDVVDAD    300
+
+canonical        277 ------    277
+                           
+5CAV_A           301 EYLIPQ    306
+
+
+#---------------------------------------
+#---------------------------------------

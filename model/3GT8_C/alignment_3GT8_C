@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3GT8_C/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3GT8_C/3GT8_C.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3GT8_C/alignment_3GT8_C
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3GT8_C/alignment_3GT8_C
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3GT8_C
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:     263/309 (85.1%)
+# Similarity:   263/309 (85.1%)
+# Gaps:          45/309 (14.6%)
+# Score: 1362.0
+# 
+#
+#=======================================
+
+canonical          1 ----LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELR     46
+                         ||||||||||||||||||||||||||||||||||||||||||||||
+3GT8_C             1 PNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKELR     50
+
+canonical         47 EATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCL     96
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3GT8_C            51 EATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFGCL    100
+
+canonical         97 LDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTP    146
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3GT8_C           101 LDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVKTP    150
+
+canonical        147 QHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSDVW    196
+                     ||||||||||||||             |||||||||||||||||||||||
+3GT8_C           151 QHVKITDFGLAKLL-------------VPIKWMALESILHRIYTHQSDVW    187
+
+canonical        197 SYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMV    246
+                     |||||||||||||||||||||||||||||||||||||||||||||||||.
+3GT8_C           188 SYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMIMR    237
+
+canonical        247 KCWMIDADSRPKFRELIIEFSKMARDPQRYL-------------------    277
+                     |||||||||||||||||||||||||||||||                   
+3GT8_C           238 KCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFY    287
+
+canonical        277 ---------    277
+                              
+3GT8_C           288 RALMDEEDM    296
+
+
+#---------------------------------------
+#---------------------------------------

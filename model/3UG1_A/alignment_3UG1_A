@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:32
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/3UG1_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/3UG1_A/3UG1_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/3UG1_A/alignment_3UG1_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/3UG1_A/alignment_3UG1_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 3UG1_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 304
+# Identity:     267/304 (87.8%)
+# Similarity:   267/304 (87.8%)
+# Gaps:          35/304 (11.5%)
+# Score: 1382.0
+# 
+#
+#=======================================
+
+canonical          1 ------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIKE     44
+                           ||||||||||||||||.|   |||||||||||||||||||||||
+3UG1_A             1 EAPNQALLRILKETEFKKIKVLSS---GTVYKGLWIPEGEKVKIPVAIKE     47
+
+canonical         45 LREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPFG     94
+                          ||||||||||||||||||||||||||||||||||||||.||||||
+3UG1_A            48 -----SPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLIMQLMPFG     92
+
+canonical         95 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    144
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3UG1_A            93 CLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLVK    142
+
+canonical        145 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    194
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3UG1_A           143 TPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQSD    192
+
+canonical        195 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    244
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+3UG1_A           193 VWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYMI    242
+
+canonical        245 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-----------------    277
+                     |||||||||||||||||||||||||||||||||                 
+3UG1_A           243 MVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDDEEDMDDVVDAD    292
+
+canonical        277 ----    277
+                         
+3UG1_A           293 EYLI    296
+
+
+#---------------------------------------
+#---------------------------------------

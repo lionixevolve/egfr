@@ -1,0 +1,62 @@
+########################################
+# Program: needle
+# Rundate: Mon 19 Feb 2018 18:48:33
+# Commandline: needle
+#    [-asequence] /home/german/labo/18/egfr/model/5EM8_A/canonical
+#    [-bsequence] /home/german/labo/18/egfr/model/5EM8_A/5EM8_A.pir
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    [-outfile] /home/german/labo/18/egfr/model/5EM8_A/alignment_5EM8_A
+# Align_format: srspair
+# Report_file: /home/german/labo/18/egfr/model/5EM8_A/alignment_5EM8_A
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: canonical
+# 2: 5EM8_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:     272/308 (88.3%)
+# Similarity:   272/308 (88.3%)
+# Gaps:          36/308 (11.7%)
+# Score: 1410.5
+# 
+#
+#=======================================
+
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+5EM8_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
+
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
+                        |||||||||||||||||||||||||||||||||||||||||||||||
+5EM8_A            51 ---EATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     97
+
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5EM8_A            98 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    147
+
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     |||||||||||||||||||  |||||||||||||||||||||||||||||
+5EM8_A           148 KTPQHVKITDFGLAKLLGA--KEYHAEGGKVPIKWMALESILHRIYTHQS    195
+
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+5EM8_A           196 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    245
+
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+5EM8_A           246 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPDMDDV    295
+
+canonical        277 --------    277
+                             
+5EM8_A           296 VDADEYLI    303
+
+
+#---------------------------------------
+#---------------------------------------
