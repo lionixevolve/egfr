@@ -9,7 +9,7 @@ do
         #mkdir $file
         #mv $pdb $file
 
-        rm $file/to-model_$file
+        rm $file/model*py
 	#cp canonical $file
 	#cp source/emiss-finder.exe $file
 
