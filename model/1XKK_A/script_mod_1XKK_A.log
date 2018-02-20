@@ -23,7 +23,7 @@
 Kind, OS, HostName, Kernel, Processor: 4, Linux german-xps 4.14.6-041406-generic x86_64
 Date and time of compilation         : 2017/07/19 15:03:51
 MODELLER executable type             : x86_64-intel8
-Job starting time (YY/MM/DD HH:MM:SS): 2018/02/20 10:55:52
+Job starting time (YY/MM/DD HH:MM:SS): 2018/02/20 13:00:14
 
 openf___224_> Open           $(LIB)/restyp.lib
 openf___224_> Open           ${MODINSTALL9v19}/modlib/resgrp.lib
@@ -664,6 +664,6 @@ Filename                          molpdf
 
 
 Dynamically allocated memory at          finish [B,KiB,MiB]:      5056469    4937.958     4.822
-Starting time                                            : 2018/02/20 10:55:52
-Closing time                                             : 2018/02/20 10:55:55
-Total CPU time [seconds]                                 :       3.40
+Starting time                                            : 2018/02/20 13:00:14
+Closing time                                             : 2018/02/20 13:00:18
+Total CPU time [seconds]                                 :       4.04

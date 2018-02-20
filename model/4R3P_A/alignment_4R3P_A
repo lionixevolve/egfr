@@ -1,6 +1,6 @@
 ########################################
 # Program: needle
-# Rundate: Tue 20 Feb 2018 09:18:45
+# Rundate: Tue 20 Feb 2018 11:39:30
 # Commandline: needle
 #    [-asequence] /home/german/labo/18/egfr/model/4R3P_A/canonical
 #    [-bsequence] /home/german/labo/18/egfr/model/4R3P_A/4R3P_A.pir
@@ -20,42 +20,42 @@
 # Gap_penalty: 10.0
 # Extend_penalty: 0.5
 #
-# Length: 316
-# Identity:     276/316 (87.3%)
-# Similarity:   276/316 (87.3%)
-# Gaps:          39/316 (12.3%)
+# Length: 310
+# Identity:     276/310 (89.0%)
+# Similarity:   276/310 (89.0%)
+# Gaps:          33/310 (10.6%)
 # Score: 1450.0
 # 
 #
 #=======================================
 
-canonical          1 -------------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVK     37
-                                  |||||||||||||||||||||||||||||||||||||
-4R3P_A             1 THYLLPGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVK     50
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+4R3P_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
 
-canonical         38 IPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLI     87
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-4R3P_A            51 IPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLI    100
+4R3P_A            51 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF    100
 
-canonical         88 TQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLA    137
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-4R3P_A           101 TQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLA    150
+4R3P_A           101 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    150
 
-canonical        138 ARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHR    187
-                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
-4R3P_A           151 ARNVLVKTPQHVKITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESILHR    200
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+4R3P_A           151 KTPQHVKITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    200
 
-canonical        188 IYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPIC    237
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-4R3P_A           201 IYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPIC    250
+4R3P_A           201 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    250
 
-canonical        238 TIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------    277
-                     ||||||||||||||||||||||||||||||||||||||||          
-4R3P_A           251 TIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHL    300
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+4R3P_A           251 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPDEDMD    300
 
-canonical        277 ----------------    277
-                                     
-4R3P_A           301 PDEDMDDVVDADEYLI    316
+canonical        277 ----------    277
+                               
+4R3P_A           301 DVVDADEYLI    310
 
 
 #---------------------------------------

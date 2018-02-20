@@ -1,6 +1,6 @@
 ########################################
 # Program: needle
-# Rundate: Tue 20 Feb 2018 09:18:45
+# Rundate: Tue 20 Feb 2018 11:39:30
 # Commandline: needle
 #    [-asequence] /home/german/labo/18/egfr/model/5CNO_A/canonical
 #    [-bsequence] /home/german/labo/18/egfr/model/5CNO_A/5CNO_A.pir
@@ -20,10 +20,10 @@
 # Gap_penalty: 10.0
 # Extend_penalty: 0.5
 #
-# Length: 323
-# Identity:     260/323 (80.5%)
-# Similarity:   260/323 (80.5%)
-# Gaps:          62/323 (19.2%)
+# Length: 316
+# Identity:     260/316 (82.3%)
+# Similarity:   260/316 (82.3%)
+# Gaps:          55/316 (17.4%)
 # Score: 1337.0
 # 
 #
@@ -53,9 +53,9 @@ canonical        248 CWMIDADSRPKFRELIIEFSKMARDPQRYL--------------------    277
                      ||||||||||||||||||||||||||||||                    
 5CNO_A           235 CWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSPTDSNFYR    284
 
-canonical        277 -----------------------    277
-                                            
-5CNO_A           285 ALMDEEDMDDVVDADEYLIPQQG    307
+canonical        277 ----------------    277
+                                     
+5CNO_A           285 ALMDEEDMDDVVDADE    300
 
 
 #---------------------------------------

@@ -16,6 +16,6 @@ class MyModel(automodel):
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/2ITN_A/to_model_2ITN_A',
             knowns = '2ITN_A', sequence = '2ITN_A_full')
 a.starting_model= 1
-a.ending_model  = 1
+a.ending_model  = 50
 
 a.make()

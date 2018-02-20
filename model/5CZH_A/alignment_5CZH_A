@@ -1,6 +1,6 @@
 ########################################
 # Program: needle
-# Rundate: Tue 20 Feb 2018 09:18:45
+# Rundate: Tue 20 Feb 2018 11:39:30
 # Commandline: needle
 #    [-asequence] /home/german/labo/18/egfr/model/5CZH_A/canonical
 #    [-bsequence] /home/german/labo/18/egfr/model/5CZH_A/5CZH_A.pir
@@ -20,42 +20,42 @@
 # Gap_penalty: 10.0
 # Extend_penalty: 0.5
 #
-# Length: 319
-# Identity:     276/319 (86.5%)
-# Similarity:   276/319 (86.5%)
-# Gaps:          42/319 (13.2%)
+# Length: 311
+# Identity:     276/311 (88.7%)
+# Similarity:   276/311 (88.7%)
+# Gaps:          34/311 (10.9%)
 # Score: 1450.0
 # 
 #
 #=======================================
 
-canonical          1 ---------------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEK     35
-                                    |||||||||||||||||||||||||||||||||||
-5CZH_A             1 DEEDYEIPGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEK     50
+canonical          1 -------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     43
+                            |||||||||||||||||||||||||||||||||||||||||||
+5CZH_A             1 GEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPVAIK     50
 
-canonical         36 VKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQ     85
+canonical         44 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF     93
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-5CZH_A            51 VKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQ    100
+5CZH_A            51 ELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQLMPF    100
 
-canonical         86 LITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRD    135
+canonical         94 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    143
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-5CZH_A           101 LITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRD    150
+5CZH_A           101 GCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARNVLV    150
 
-canonical        136 LAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESIL    185
-                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
-5CZH_A           151 LAARNVLVKTPQHVKITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESIL    200
+canonical        144 KTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    193
+                     ||||||||||||.|||||||||||||||||||||||||||||||||||||
+5CZH_A           151 KTPQHVKITDFGRAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYTHQS    200
 
-canonical        186 HRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPP    235
+canonical        194 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    243
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-5CZH_A           201 HRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPP    250
+5CZH_A           201 DVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTIDVYM    250
 
-canonical        236 ICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL--------    277
-                     ||||||||||||||||||||||||||||||||||||||||||        
-5CZH_A           251 ICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERM    300
+canonical        244 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL----------------    277
+                     ||||||||||||||||||||||||||||||||||                
+5CZH_A           251 IMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPDEEDM    300
 
-canonical        277 -------------------    277
-                                        
-5CZH_A           301 HLPDEEDMDDVVDADEYLI    319
+canonical        277 -----------    277
+                                
+5CZH_A           301 DDVVDADEYLI    311
 
 
 #---------------------------------------

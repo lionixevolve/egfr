@@ -17,6 +17,6 @@ class MyModel(automodel):
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/5CAO_A/to_model_5CAO_A',
             knowns = '5CAO_A', sequence = '5CAO_A_full')
 a.starting_model= 1
-a.ending_model  = 1
+a.ending_model  = 50
 
 a.make()

@@ -1,6 +1,6 @@
 ########################################
 # Program: needle
-# Rundate: Tue 20 Feb 2018 09:18:45
+# Rundate: Tue 20 Feb 2018 11:39:29
 # Commandline: needle
 #    [-asequence] /home/german/labo/18/egfr/model/2GS6_A/canonical
 #    [-bsequence] /home/german/labo/18/egfr/model/2GS6_A/2GS6_A.pir
@@ -20,42 +20,42 @@
 # Gap_penalty: 10.0
 # Extend_penalty: 0.5
 #
-# Length: 319
-# Identity:     274/319 (85.9%)
-# Similarity:   274/319 (85.9%)
-# Gaps:          45/319 (14.1%)
+# Length: 314
+# Identity:     274/314 (87.3%)
+# Similarity:   274/314 (87.3%)
+# Gaps:          40/314 (12.7%)
 # Score: 1431.0
 # 
 #
 #=======================================
 
-canonical          1 ---------------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEK     35
-                                    |||||||||||||||||||||||||||||||||||
-2GS6_A             1 EIYGEGAMGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEK     50
+canonical          1 ----------LLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPV     40
+                               ||||||||||||||||||||||||||||||||||||||||
+2GS6_A             1 GAMGEAPNQALLRILKETEFKKIKVLGSGAFGTVYKGLWIPEGEKVKIPV     50
 
-canonical         36 VKIPVAIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQ     85
-                     ||||||||||   |||||||||||||||||||||||||||||||||||||
-2GS6_A            51 VKIPVAIKEL---TSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQ     97
+canonical         41 AIKELREATSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQL     90
+                     |||||   ||||||||||||||||||||||||||||||||||||||||||
+2GS6_A            51 AIKEL---TSPKANKEILDEAYVMASVDNPHVCRLLGICLTSTVQLITQL     97
 
-canonical         86 LITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRD    135
+canonical         91 MPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARN    140
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-2GS6_A            98 LITQLMPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRD    147
+2GS6_A            98 MPFGCLLDYVREHKDNIGSQYLLNWCVQIAKGMNYLEDRRLVHRDLAARN    147
 
-canonical        136 LAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESIL    185
+canonical        141 VLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYT    190
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-2GS6_A           148 LAARNVLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESIL    197
+2GS6_A           148 VLVKTPQHVKITDFGLAKLLGAEEKEYHAEGGKVPIKWMALESILHRIYT    197
 
-canonical        186 HRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPP    235
+canonical        191 HQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTID    240
                      ||||||||||||||||||||||||||||||||||||||||||||||||||
-2GS6_A           198 HRIYTHQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPP    247
+2GS6_A           198 HQSDVWSYGVTVWELMTFGSKPYDGIPASEISSILEKGERLPQPPICTID    247
 
-canonical        236 ICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL--------    277
-                     ||||||||||||||||||||||||||||||||||||||||||        
-2GS6_A           248 ICTIDVYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERM    297
+canonical        241 VYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYL-------------    277
+                     |||||||||||||||||||||||||||||||||||||             
+2GS6_A           248 VYMIMVKCWMIDADSRPKFRELIIEFSKMARDPQRYLVIQGDERMHLPSE    297
 
-canonical        277 -------------------    277
-                                        
-2GS6_A           298 HLPSEDMDDVVDADEYLIP    316
+canonical        277 --------------    277
+                                   
+2GS6_A           298 DMDDVVDADEYLIP    311
 
 
 #---------------------------------------
