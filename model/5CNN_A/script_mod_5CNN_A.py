@@ -10,7 +10,7 @@ env.io.atom_files_directory = ['.', '../atom_files']
 class MyModel(automodel):
 	def select_atoms(self):
 		return selection(self.residue_range('49', '51'),
-			self.residue_range('160', '171'),)
+			self.residue_range('160', '172'),)
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/5CNN_A/to_model_5CNN_A',

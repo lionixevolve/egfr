@@ -12,7 +12,7 @@ class MyModel(automodel):
 		return selection(self.residue_range('18', '21'),
 			self.residue_range('35', '35'),
 			self.residue_range('46', '51'),
-			self.residue_range('156', '172'),)
+			self.residue_range('156', '173'),)
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/3GOP_A/to_model_3GOP_A',

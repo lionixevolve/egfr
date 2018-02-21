@@ -11,7 +11,7 @@ class MyModel(automodel):
 	def select_atoms(self):
 		return selection(self.residue_range('45', '53'),
 			self.residue_range('161', '163'),
-			self.residue_range('171', '171'),)
+			self.residue_range('171', '172'),)
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/4ZAU_A/to_model_4ZAU_A',
