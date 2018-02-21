@@ -15,7 +15,9 @@ class MyModel(automodel):
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/4LQM_A/to_model_4LQM_A',
-            knowns = '4LQM_A', sequence = '4LQM_A_full')
+	knowns = '4LQM_A', sequence = '4LQM_A_full',
+	assess_methods=(assess.DOPE,
+		assess.GA341))
 a.starting_model= 1
 a.ending_model  = 50
 

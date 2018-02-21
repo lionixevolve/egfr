@@ -13,7 +13,9 @@ class MyModel(automodel):
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/5CAV_A/to_model_5CAV_A',
-            knowns = '5CAV_A', sequence = '5CAV_A_full')
+	knowns = '5CAV_A', sequence = '5CAV_A_full',
+	assess_methods=(assess.DOPE,
+		assess.GA341))
 a.starting_model= 1
 a.ending_model  = 50
 

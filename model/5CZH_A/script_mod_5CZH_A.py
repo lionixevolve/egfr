@@ -13,7 +13,9 @@ class MyModel(automodel):
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/5CZH_A/to_model_5CZH_A',
-            knowns = '5CZH_A', sequence = '5CZH_A_full')
+	knowns = '5CZH_A', sequence = '5CZH_A_full',
+	assess_methods=(assess.DOPE,
+		assess.GA341))
 a.starting_model= 1
 a.ending_model  = 50
 

@@ -13,7 +13,9 @@ class MyModel(automodel):
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/3W2O_A/to_model_3W2O_A',
-            knowns = '3W2O_A', sequence = '3W2O_A_full')
+	knowns = '3W2O_A', sequence = '3W2O_A_full',
+	assess_methods=(assess.DOPE,
+		assess.GA341))
 a.starting_model= 1
 a.ending_model  = 50
 
