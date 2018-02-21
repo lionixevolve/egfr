@@ -27,6 +27,7 @@ do
         script_filename=script_mod_$file.py
         cd $file
         mod9.19 $script_filename
+        #rm *full*
         cd ..
 
 done
