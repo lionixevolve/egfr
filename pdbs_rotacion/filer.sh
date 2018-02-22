@@ -8,6 +8,6 @@ do
         i=`expr $i + 1`
         pdb=$file.pdb
 
-        cp $file/*pdb .
+        mv $pdb $file/
        
 done
