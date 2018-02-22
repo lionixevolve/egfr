@@ -17,6 +17,6 @@ a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/1M17_A/to_model_1M17
 	assess_methods=(assess.DOPE,
 		assess.GA341))
 a.starting_model= 1
-a.ending_model  = 10
+a.ending_model  = 50
 
 a.make()

@@ -9,8 +9,8 @@ env.io.atom_files_directory = ['.', '../atom_files']
 
 class MyModel(automodel):
 	def select_atoms(self):
-		return selection(self.residue_range('44', '46'),
-			self.residue_range('160', '173'),)
+		return selection(self.residue_range('43', '47'),
+			self.residue_range('159', '174'),)
 
 
 a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/4RJ4_A/to_model_4RJ4_A',
@@ -18,6 +18,6 @@ a = MyModel(env, alnfile = '/home/german/labo/18/egfr/model/4RJ4_A/to_model_4RJ4
 	assess_methods=(assess.DOPE,
 		assess.GA341))
 a.starting_model= 1
-a.ending_model  = 10
+a.ending_model  = 50
 
 a.make()
