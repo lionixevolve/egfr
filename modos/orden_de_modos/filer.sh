@@ -32,21 +32,6 @@ do
 
 
     cd $file
-    for refile in $list
-    do
-        if [[ $file == $refile ]] 
-        then
-            continue
-        fi
-
-        refile_mods=modos_${refile}
-        refile_ord=${file}_${refile}_ord
-        refile_nsub=${file}_${refile}_nsub
-
-#        cp ../$refile/$refile_mods .
-        ./emin.exe $file_mods $refile_mods 825 $refile_ord $refile_nsub
-    done
-
 #    ./epanmhs.exe $pdb $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
 
     cd ..
