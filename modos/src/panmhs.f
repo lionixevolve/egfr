@@ -13,11 +13,9 @@ C Programa para calcular los modos normales utilizando el metodo de ANM
               
       call getarg(1, infile)
 
-
       open(50,file='temp')!				aca van las coordenadas de los Calpha y el occupancy number
       open(51,file='temp1')!				aca van los bfactors experimentales
       open(52,file=infile)    
-!      open(53,file='dim-anmh')!				aca va el nro de Calpha
       icont=0
       do while (readstring(52,card,slen).ge.0 )
          long=slen
@@ -29,11 +27,10 @@ C Programa para calcular los modos normales utilizando el metodo de ANM
             endif
          endif
       enddo
-!      write(53,*) icont!				icont es el nro de Calphas, pero guarda q la numeracion de los Calphas,
-      close(50)!					puede estar cambiada. Ej: un archivo tiene 125 lineas, son 125 Calphas
-      close(51)!	                                pero el ultimo Calpha es el Calpha nro 138, pq se saltearon varios nros
+      close(50)
+      close(51)
       close(52)
-!      close(53)
+
       call calculo(icont, infile)
 
       stop
@@ -62,6 +59,7 @@ C Subroutine calculo
       double precision AA,AB,AC,CORSTD
       double precision itotx
       integer t, bf_ct, exc(100), ierr, flag1, flag2, nn, kk, jj
+      integer h_uno(1000), h_dos(1000)
       integer a(icont2max),b(icont2max) 
       integer sa(icont3max),sb(icont3max), sas(icont3max),sbs(icont3max)
       double precision s(icontmax,icontmax)
@@ -75,23 +73,38 @@ C Subroutine calculo
       character*30 out_bfcorr, out_bfteo, out_colec, out_correl
       character*30 out_freq, out_mods, out_bf
 
-
-      call getarg(2, cutoffc)
+      call getarg(2, in_h)
+      call getarg(3, in_dis)
+      call getarg(4, cutoffc)
       read (cutoffc, *) cutoff
-      call getarg(3, out_bf)
-      call getarg(4, out_bfcorr)
-      call getarg(5, out_bfteo)
-      call getarg(6, out_colec)
-      call getarg(7, out_correl)
-      call getarg(8, out_freq)
-      call getarg(9, out_mods)
+      call getarg(5, out_bf)
+      call getarg(6, out_bfcorr)
+      call getarg(7, out_bfteo)
+      call getarg(8, out_colec)
+      call getarg(9, out_correl)
+      call getarg(10, out_freq)
+      call getarg(11, out_mods)
+      
 
         bf_ct = 0
+        icont2 = 0!                                     contador de ptes H
+        icont3=0!					contador de ptes dis
 ! este código calcula correlación entre bfactor teórco y experimental, pero
 ! yo no uso esa utilidad. bf_ct y exc[100] eran variables usadas p/ especificar
 ! Calphas q no debían ser tenidos en cuenta en el cálculo de correlación de
 ! bfactors. 
 
+        if ( in_h /= 'none' ) then
+            open(11,file= in_h)
+            i=0
+            do
+                i = i + 1
+                read(11, 91, iostat= ierr) h_uno(i), h_dos(i)
+                if ( ierr/= 0 ) exit
+            enddo
+            icont2 = i!                 contador de ptes H
+            close(11)
+        endif
 
       open(50,file='temp')
       open(51,file='temp1')
@@ -100,20 +113,26 @@ C Subroutine calculo
          read(51,*) bfactor(i)
       enddo
 
-      icont2=0!					contador de ptes H
-      icont3=0!					contador de ptes dis
-      i=1
+!       No hago diferenciación de ptes H ni disulfuro, ni cov bond.
+!       Por eso sobreescribo todo con 1.0d0
 
-      do i=1,icont!						aca empieza a hacer la matriz hessiana F
-        do j=1,icont
-          w(i,j)=0.01d0
-        enddo
+        do i=1,icont!						aca empieza a hacer la matriz hessiana F
+            do j=1,icont
+                if(i.eq.j+1.or.i.eq.j-1) then!			estos son aa's consecutivos (cov bond)
+                    w(i,j)=1.0d0
+                else
+                    w(i,j)=0.1d0
+                    w(i,j)=1.0d0
+                endif
+            enddo
       enddo
 
-          if(i.eq.j+1.or.i.eq.j-1) then!			estos son aa's consecutivos (cov bond)
-            w(i,j)=1.0d0
-            w(j,i)=1.0d0
-          endif
+      do i=1,icont2!					contador de ptes H
+        w(h_uno(i), h_dos(i)) = 0.1d0
+        w(h_uno(i), h_dos(i)) = 1.0d0
+      enddo
+
+
 
 
 ****************************************************
@@ -379,6 +398,9 @@ c************************************************
       close(50,STATUS='DELETE')
       close(51,STATUS='DELETE')     
 
+
+
+91      format(i3, x, i3)
 92      format(1i4)
 222   FORMAT(3(1x,F7.3),1x,F6.2,1x,F6.2) 
 333   FORMAT(10000(1x,F9.6)) 

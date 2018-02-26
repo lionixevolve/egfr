@@ -17,6 +17,7 @@ do
 #    file_dis=${file}_dis
     
     file_mods=modos_${file}
-
+    rm $file/*ord
+    rm $file/*nsub
 
 done

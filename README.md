@@ -64,12 +64,14 @@ de archivo: (ej:1XKK_A)
 ### 8
 En las carpetas *model* y *modos* están los 58 .pdbs iniciales. Una vez obtenidos
 los modos, calculé las correlaciones entre Bfactors y descarté 7 .pdbs:
-    3GT8_A
+    2J5F_A
     3GT8_C
     4I22_A
-    5CNN_A
+    4I24_A
     5CNN_B
     5CNO_A
-    5HG8_A
+    5EDP_A
+    5HIB_A
+
 Por lo tanto, en la carpeta *gram* hay solo 58 .pdbs y los archivos *pdbs.list*
 *am.list* e *im.list* son distintos.
