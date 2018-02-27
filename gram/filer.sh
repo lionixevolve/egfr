@@ -11,13 +11,22 @@ do
     pdb=$file.pdb
     file_dis=${file}_dis
     file_hb2=${file}.hb2
+    hb_file=hb_${file}
 
-#    file_h=${file}_h
-#    file_h_norm=${file}_h_norm
-#    file_dis=${file}_dis
-    
+    cutoff_a=10
+# estos son los nombres de los archivos de out q me va a g.rar 'epanmhs.exe'
+    file_bf=bf_${file}
+    file_bfcorr=bfcorr_${file}
+    file_bfteo=bfteo_${file}
+    file_colec=colec_${file}
+    file_correl=correl_${file}
+    file_freq=freq_${file}
     file_mods=modos_${file}
-    rm $file/*ord
-    rm $file/*nsub
+################################
+################################
+
+    mkdir $file
+    cp ../gram/$file/$file_mods $file
+    cp ../gram/$file/*ord $file
 
 done
