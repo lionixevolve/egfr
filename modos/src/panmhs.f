@@ -120,16 +120,17 @@ C Subroutine calculo
             do j=1,icont
                 if(i.eq.j+1.or.i.eq.j-1) then!			estos son aa's consecutivos (cov bond)
                     w(i,j)=1.0d0
+                    w(j,i)=1.0d0
                 else
-                    w(i,j)=0.1d0
-                    w(i,j)=1.0d0
+                    w(i,j)=0.01d0
+                    w(j,i)=0.01d0
                 endif
             enddo
       enddo
 
       do i=1,icont2!					contador de ptes H
         w(h_uno(i), h_dos(i)) = 0.1d0
-        w(h_uno(i), h_dos(i)) = 1.0d0
+        w(h_dos(i), h_uno(i)) = 0.1d0
       enddo
 
 

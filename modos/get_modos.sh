@@ -14,7 +14,7 @@ do
     file_dis=${file}_dis
     file_hb2=${file}.hb2
     hb_file=hb_${file}
-    cutoff_a=9
+    cutoff_a=10
 # Nombres de output de 'epanmhs.exe'
     file_bf=bf_${file}
     file_bfcorr=bfcorr_${file}
@@ -34,10 +34,9 @@ do
     rm tmp_hb?
 
 # Calculo modos
-    #echo  $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
-    #./epanmhs.exe $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
-    ./epanmhs.exe $pdb none none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
 
+    
+    ./epanmhs.exe $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
     rm $file_correl 
 
     cd ..

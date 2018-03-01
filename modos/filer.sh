@@ -27,7 +27,7 @@ do
 
     cd $file
 
-
+    cp ../src/epanmhs.exe .
 
     cd ..
 done
