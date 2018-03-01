@@ -121,6 +121,8 @@ C Subroutine calculo
                 if(i.eq.j+1.or.i.eq.j-1) then!			estos son aa's consecutivos (cov bond)
                     w(i,j)=1.0d0
                     w(j,i)=1.0d0
+
+
                 else
                     w(i,j)=0.01d0
                     w(j,i)=0.01d0

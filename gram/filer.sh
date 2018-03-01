@@ -25,8 +25,10 @@ do
 ################################
 ################################
 
-    mkdir $file
-    cp ../gram/$file/$file_mods $file
-    cp ../gram/$file/*ord $file
+#    mkdir $file
+#    cp ../gram/$file/$file_mods $file
+#    cp ../gram/$file/*ord $file
+     cp src/emin.exe $file
+
 
 done

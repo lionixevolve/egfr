@@ -75,3 +75,5 @@ los modos, calculé las correlaciones entre Bfactors y descarté 7 .pdbs:
 
 Por lo tanto, en la carpeta *gram* hay solo 58 .pdbs y los archivos *pdbs.list*
 *am.list* e *im.list* son distintos.
+
+### 9
