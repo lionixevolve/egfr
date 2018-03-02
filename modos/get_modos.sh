@@ -36,8 +36,9 @@ do
 # Calculo modos
 
     
-    ./epanmhs.exe $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
-    rm $file_correl 
+    #./epanmhs.exe $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
+    echo $pdb $hb_file none $cutoff_a $file_bf $file_bfcorr $file_bfteo $file_colec $file_correl $file_freq $file_mods 
+    #rm $file_correl 
 
     cd ..
 done

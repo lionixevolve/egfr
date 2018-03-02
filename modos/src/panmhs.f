@@ -116,13 +116,11 @@ C Subroutine calculo
 !       No hago diferenciación de ptes H ni disulfuro, ni cov bond.
 !       Por eso sobreescribo todo con 1.0d0
 
-        do i=1,icont!						aca empieza a hacer la matriz hessiana F
+      do i=1,icont!						aca empieza a hacer la matriz hessiana F
             do j=1,icont
                 if(i.eq.j+1.or.i.eq.j-1) then!			estos son aa's consecutivos (cov bond)
-                    w(i,j)=1.0d0
-                    w(j,i)=1.0d0
-
-
+                    w(i,j)=10.0d0
+                    w(j,i)=10.0d0
                 else
                     w(i,j)=0.01d0
                     w(j,i)=0.01d0

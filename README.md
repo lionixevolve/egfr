@@ -77,3 +77,9 @@ Por lo tanto, en la carpeta *gram* hay solo 58 .pdbs y los archivos *pdbs.list*
 *am.list* e *im.list* son distintos.
 
 ### 9
+Creo, a mano, los archivos:
+
+1M14_A_1M14_A_nsub
+1M14_A_1M14_A_ord (copiado de modos_1M14_A)
+
+P/ uniformar la cosa.

@@ -104,7 +104,7 @@
       	do j=1,ndat
       		if((j.lt.(i-4)).or.(j.gt.(i+4))) then
 !      			ascpr(i,j)=-1*ifix(sngl(1.d5))
-      			ascpr(i,j)=-1
+      			ascpr(i,j)=-100000
       		endif
       	enddo
       enddo
