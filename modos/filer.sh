@@ -27,7 +27,7 @@ do
 
     cd $file
 
-    cp ../src/epanmhs.exe .
+    cp $file_freq ../to_gram 
 
     cd ..
 done

@@ -22,13 +22,18 @@ do
     file_correl=correl_${file}
     file_freq=freq_${file}
     file_mods=modos_${file}
+    file_bfmod=bfmod_${file}
+    file_nonmis_bfmod=nonmis_bfmod_${file}
 ################################
 ################################
 
 #    mkdir $file
 #    cp ../gram/$file/$file_mods $file
 #    cp ../gram/$file/*ord $file
-     cp src/emin.exe $file
+    cd $file
 
+    ./enew_pond.exe $file_mods $file_freq aa_pocket 825 $file_bfmod 
+
+    cd ..
 
 done
