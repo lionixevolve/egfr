@@ -1,5 +1,6 @@
 #! /bin/bash
-list=$(<pdbs.list)
+list=$(<aapdbs.list)
+lista=$(<pdbs.list)
 #list="1XKK_A"
 i=0
 for file in $list
@@ -22,18 +23,26 @@ do
     file_correl=correl_${file}
     file_freq=freq_${file}
     file_mods=modos_${file}
-    file_bfmod=bfmod_${file}
-    file_nonmis_bfmod=nonmis_bfmod_${file}
 ################################
 ################################
-
-#    mkdir $file
-#    cp ../gram/$file/$file_mods $file
-#    cp ../gram/$file/*ord $file
     cd $file
 
-    ./enew_pond.exe $file_mods $file_freq aa_pocket 825 $file_bfmod 
+#    for refile in $lista
+#    do
+#        if [[ $file == $refile ]]
+#        then
+#            continue
+#        fi
+#        echo $refile
+#        cp ../$refile/freq_$refile .
+#    done
+
+
+#    cp ../src/eold_bipond.exe .
+#    cp ../src/esort_fq_old.exe .
+#    cp ../src/eold_bigram.exe .
+#    cp ../src/emin.exe .
+#    cp ../aa_pocket .
 
     cd ..
-
 done

@@ -1,0 +1,15 @@
+sbatch im_get_gram.sh 1XKK_A 
+sbatch im_get_gram.sh 2GS7_A 
+sbatch im_get_gram.sh 2RGP_A 
+sbatch im_get_gram.sh 3BEL_A 
+sbatch im_get_gram.sh 3GOP_A 
+sbatch im_get_gram.sh 3GT8_A 
+sbatch im_get_gram.sh 3IKA_B 
+sbatch im_get_gram.sh 3LZB_A 
+sbatch im_get_gram.sh 3W2R_A 
+sbatch im_get_gram.sh 3W2S_A 
+sbatch im_get_gram.sh 3W32_A 
+sbatch im_get_gram.sh 3W33_A 
+sbatch im_get_gram.sh 4I1Z_A 
+sbatch im_get_gram.sh 4ZJV_A 
+sbatch im_get_gram.sh 5CNN_A 
