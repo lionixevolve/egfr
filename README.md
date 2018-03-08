@@ -83,3 +83,18 @@ Creo, a mano, los archivos:
 1M14_A_1M14_A_ord (copiado de modos_1M14_A)
 
 P/ uniformar la cosa.
+
+### 9
+El apartado 8 quedó outdated, al final, incluí a:
+    4I22_A
+    4I24_A
+y saqué varias activas hasta obtener distribuciones como las q solía tener.
+Sospecho q algunas q están clasificadas como activas, no lo son tanto.
+
+La diferencia entre las carpetas *renonmis_gram* y *nonmis_gram* es la ausencia
+de estas 2 activas:
+    5EM7_A
+    5HIC_A
+Por lo q en *renonmis_gram* sólo corrí las activas y copié los rtdos del
+gramiano (zeta_, nd_, autovectores, autovalores) de *nonmis_gram*.
+
