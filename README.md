@@ -98,3 +98,12 @@ de estas 2 activas:
 Por lo q en *renonmis_gram* sólo corrí las activas y copié los rtdos del
 gramiano (zeta_, nd_, autovectores, autovalores) de *nonmis_gram*.
 
+### 10
+Recordar q las siguientes notebooks no tienen relevancia por haber sido
+reemplazadas por *leo_renonmis_grammiano_viejo*
+    grammiano_mayor_mov.ipynb 
+    grammiano_nonmissing.ipynb
+    leo_grammiano_viejo.ipynba 
+    leo_nonmis_grammiano_viejo.ipynb
+
+### 11
