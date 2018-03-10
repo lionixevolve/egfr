@@ -21,16 +21,16 @@ do
     file_vec2_40=${file/*/"$file"_vec2_4.pdb}
     file_vec2_60=${file/*/"$file"_vec2_6.pdb}
     file_vec2_80=${file/*/"$file"_vec2_8.pdb}
-    im_1="svd_im1"
-    im_2="svd_im2"
+    im_1="svd_im_1"
+    im_2="svd_im_2"
     
     cd $file
 
-    ../edisplace.exe $pdb ../$im_1 $file_vec1_20 2
-    ../edisplace.exe $pdb ../$im_1 $file_vec1__20 -2
+    ../edisplace.exe $pdb ../$im_1 $file_vec1_20 5
+    ../edisplace.exe $pdb ../$im_1 $file_vec1__20 -5
 
-    ../edisplace.exe $pdb ../$im_2 $file_vec2_20 2
-    ../edisplace.exe $pdb ../$im_2 $file_vec2__20 -2
+    ../edisplace.exe $pdb ../$im_2 $file_vec2_20 5
+    ../edisplace.exe $pdb ../$im_2 $file_vec2__20 -5
 
 #    ./edisplace.exe $file_vec1_10 $im_1 $file_vec1_20 1 
 #    ./edisplace.exe $file_vec1_20 $im_1 $file_vec1_30 1
