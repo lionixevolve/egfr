@@ -1,0 +1,21 @@
+Calculo del cambio de ASA y Rg a medida q las EGFR se van moviendo. 
+    Voy generando estructuras desplazadas en distintas magnitudes y a lo largo de
+distintos vectores.
+    Estos scripts desplazan a lo largo de los svd1 y 2, generando las structs
+llamadas *_vec1(2)_*
+        - displ_am.sh  
+        - displ_im.sh  
+
+    Estos hacen lo mismo, pero a lo largo de los modos 1, 2 y combinacion de
+ambos. Esto implica q c/ struct es desplazada por un vector distinto (SU modo).
+Las estructuras generadas por este metodo se llaman *_vecmode1(2)_* y *_vecmain_*
+
+        - displ_mode_im.sh
+        - displ_mode_am.sh
+        - displ_main.sh  
+
+    asa_i(a)m_originals tienen las ASAs de los PDBs originales.
+
+-----
+
+    Todo lo anterior aplica p/ los calculos de radius of gyration.
