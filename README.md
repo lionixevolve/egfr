@@ -107,3 +107,6 @@ reemplazadas por *leo_renonmis_grammiano_viejo*
     leo_nonmis_grammiano_viejo.ipynb
 
 ### 11
+La numeración q uso (de 1 a 277) está desplazada en 702 u.s (de 703 a 979).
+
+### 12
