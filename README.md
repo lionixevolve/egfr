@@ -110,3 +110,13 @@ reemplazadas por *leo_renonmis_grammiano_viejo*
 La numeración q uso (de 1 a 277) está desplazada en 702 u.s (de 703 a 979).
 
 ### 12
+Reemplazo estas pdbs inactivas con las q tenía en el trabajo anterior.
+También reemplazo sus modos y sus frecuencias por los anteriores.
+4I22_A
+4I24_A
+
+### 13
+P/ hacer los porcupine de 1M14_A y 3W32_A invertí el modo 1 de la inactiva
+(3W32_A) y así apuntaban los 2 p/ el mismo lado
+
+### 14
