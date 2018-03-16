@@ -1,0 +1,14 @@
+sbatch im_get_gram.sh 1XKK_A
+sbatch im_get_gram.sh 5EM7_A
+sbatch im_get_gram.sh 5HG5_A
+sbatch im_get_gram.sh 5HG7_A
+sbatch im_get_gram.sh 5HG8_A
+sbatch im_get_gram.sh 5HIC_A
+
+sbatch am_get_gram.sh 1XKK_A
+sbatch am_get_gram.sh 5EM7_A
+sbatch am_get_gram.sh 5HG5_A
+sbatch am_get_gram.sh 5HG7_A
+sbatch am_get_gram.sh 5HG8_A
+sbatch am_get_gram.sh 5HIC_A
+
