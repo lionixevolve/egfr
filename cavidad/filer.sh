@@ -19,10 +19,10 @@ do
     modo_2=2modo_${file}
 ################################
 ################################
-    cd $file
+#    cd $file
 
-#    julia sacar_modos.jl $file/$file_mods $file/$modo_1 $file/$modo_2   
+    julia sacar_modos.jl $file/$file_mods $file/$modo_1 $file/$modo_2   
     
 
-    cd ..
+#    cd ..
 done
