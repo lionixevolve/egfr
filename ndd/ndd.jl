@@ -82,12 +82,13 @@ function displaceAA(in_frm, aa, aa_3, in_vec)
     # Listo, ahora puedo mover el pdb
     out_frm = deepcopy(in_frm)
     out_xyz = positions(out_frm)
-    out_xyz  = in_xyz + sum_mat
 
-    writedlm("a", out_xyz)
-    writedlm("b", in_xyz)
-    writedlm("c", positions(out_frm))
-
+    # Tengo q hacer esto por ahora. Hasta q arreglemos Chemfiles.
+    for i = 1:size(in_xyz)[1]
+        for j = 1:size(in_xyz)[2]
+            out_xyz[i, j]  = in_xyz[i, j] + sum_mat[i, j]
+        end
+    end
     return out_frm
 end
 #########
@@ -201,13 +202,18 @@ end
 
 
 # Ahora desplazo
-#for i = 1:size(in_modes)[2]
-i = 1
+pdb_names = Array{String}(size(in_modes)[2])
+for i = 1:size(in_modes)[2]
     # Escalo vector
     const modo = in_modes[:, i] .* mul
     # Desplazo
     const out_frm = displaceAA(in_frm, aa, aa_3, modo);
     # Y guardo
-    out_trj = Trajectory(string(i, "_", suffix), 'w')
+    pos = positions(out_frm)
+    pdb_names[i] = string(i, "_", basename(suffix))
+    out_trj = Trajectory(pdb_names[i], 'w')
     write(out_trj, out_frm)
-#end
+end
+
+writedlm(string(dirname(in_pdb_filename), "in_ndd_",
+    splitext(in_pdb_filename)[1]), pdb_names)
