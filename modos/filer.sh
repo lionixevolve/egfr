@@ -27,7 +27,7 @@ do
 
     cd $file
 
-    cp $file_freq ../to_gram 
+    cp $file_freq ../reno/ 
 
     cd ..
 done

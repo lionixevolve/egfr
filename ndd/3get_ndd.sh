@@ -20,8 +20,9 @@ do
 ################################
 ################################
     cd $file
-
-    ../ndd.jl -p $pdb -v $file_mods -m 10 -o displ_$file
+    
+    mul=3
+    ../ndd.jl -p $pdb -v $file_mods -m $mul -o displ_$file
 
     cd ..
 done

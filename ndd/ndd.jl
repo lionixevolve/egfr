@@ -139,7 +139,7 @@ s = ArgParseSettings()
         required = false
         default = false
     "--weights_filename", "-w"
-        help = "Input weights, if desired. Default: none"
+        help = "Input 1/weights, if desired. Default: none"
         arg_type = String
         required = false
         default = "none"
@@ -200,12 +200,22 @@ if size(in_modes)[1] != aa_3
         "modes should be ", aa_3, " long."))
 end
 
+weights = fill(1.0, size(in_modes)[2])
+if weights_filename != "none"
+    weights = convert(Array{Float64}, readdlm(weights_filename))[:, 1]
+    if length(weights) != size(in_modes)[2]
+        error(string("\n\n", weights_filename, " is .", length(weights),
+            " long and should be ", size(in_modes)[2], " long."))
+    end
+end
+
+
 
 # Ahora desplazo
 pdb_names = Array{String}(size(in_modes)[2])
 for i = 1:size(in_modes)[2]
     # Escalo vector
-    const modo = in_modes[:, i] .* mul
+    const modo = in_modes[:, i] .* mul ./ weights[i]
     # Desplazo
     const out_frm = displaceAA(in_frm, aa, aa_3, modo);
     # Y guardo

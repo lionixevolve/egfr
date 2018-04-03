@@ -14,6 +14,7 @@ do
     hb_file=hb_${file}
 
     file_mods=modos_${file}
+    file_freq=freq_${file}
 
     modo_1=1modo_${file}
     modo_2=2modo_${file}
@@ -22,6 +23,6 @@ do
     cd $file
 
 #    julia sacar_modos.jl $file/$file_mods $file/$modo_1 $file/$modo_2   
-
+    tail -n 825 $file_freq > weights_$file
     cd ..
 done
