@@ -120,3 +120,7 @@ P/ hacer los porcupine de 1M14_A y 3W32_A invertí el modo 1 de la inactiva
 (3W32_A) y así apuntaban los 2 p/ el mismo lado
 
 ### 14
+En get_bf.ipynb leo los Bfactors experimentales y los índices de los átomos
+q no estan missing. Guardo esto en archivos tipo "exp_bf_1M14_A" y 
+"nonmissing_1M14_A" p/ después usar estos datos a la hora de calcular las
+amplitudes de los modos.
