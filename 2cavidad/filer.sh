@@ -21,8 +21,8 @@ do
 ################################
     cd $file
 
-    #rm vol* 
-    ../sacar_modos.jl $file_mods $modo_1 $modo_2
+    rm neg* pos*
+    #../sacar_modos.jl $file_mods $modo_1 $modo_2
 
     cd ..
 done

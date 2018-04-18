@@ -1,5 +1,5 @@
 #! /bin/bash
-list=$(<pdbs.list)
+list=$(<2pdbs.list)
 #list="1XKK_A"
 i=0
 for file in $list
@@ -21,8 +21,8 @@ do
 ################################
     cd $file
 
-    #rm vol* 
-    ../sacar_modos.jl $file_mods $modo_1 $modo_2
+    mul=3
+    ../ndd.jl -p $pdb -v $file_mods -m $mul -o displ_$file
 
     cd ..
 done

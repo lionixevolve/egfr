@@ -21,8 +21,7 @@ do
 ################################
     cd $file
 
-    #rm vol* 
-    ../sacar_modos.jl $file_mods $modo_1 $modo_2
+    ../ndd.jl -p $pdb -v $file_mods -m 10 -o displ_$file
 
     cd ..
 done
