@@ -124,3 +124,8 @@ En get_bf.ipynb leo los Bfactors experimentales y los índices de los átomos
 q no estan missing. Guardo esto en archivos tipo "exp_bf_1M14_A" y 
 "nonmissing_1M14_A" p/ después usar estos datos a la hora de calcular las
 amplitudes de los modos.
+
+### 15
+La diferencia entre *old_egfr.cfg* y *egfr.cfg* es q el último usa indices
+de atomos y agrega un nitrógeno extra p/ extender la cavidad. Pero el resto de
+los átomos q usa son los mismos Calpha q usaba el config viejo.
