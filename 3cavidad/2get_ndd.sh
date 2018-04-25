@@ -17,12 +17,12 @@ do
 
     modo_1=1modo_${file}
     modo_2=2modo_${file}
+    amp_file=amp_$file
 ################################
 ################################
     cd $file
 
-    mul=3
-    ../ndd.jl -p $pdb -v $file_mods -m $mul -o displ_$file
+    ../ndd.jl -p $pdb -v $file_mods -w $amp_file -o displ_$file
 
     cd ..
 done
