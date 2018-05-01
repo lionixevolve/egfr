@@ -2,17 +2,8 @@ from pymol import cmd
 
 cmd.load("./1M14_A.pdb")
 
-cmd.set_view (\
-     '''0.846367121,    0.315556258,   -0.429026186,\
-     0.431824714,   -0.878101051,    0.206053212,\
-    -0.311695248,   -0.359667838,   -0.879461229,\
-     0.000419451,    0.000224732, -164.824905396,\
-    26.871166229,    6.766399384,   57.206291199,\
-   123.208457947,  206.596878052,  -20.000000000 ''' )
-
 cmd.set("cartoon_transparency", "0.5")
 cmd.set("stick_radius", "0.5")
-cmd.set("label_size", "45")
 
 cmd.select("nlobe", "resi 1:95")
 cmd.select("clobe", "resi 96:150+178:277")
@@ -42,13 +33,26 @@ cmd.set("ambient", 0.5)
 cmd.set("ray_trace_mode",  0)
 cmd.set('''ray_opaque_background''', '''off''')
 
-cmd.label("resi 133 and name CA", "'HRD'")
+
+cmd.set("label_size", "30")
+cmd.label("resi 133 and name CA", "'HRD   '")
 cmd.label("K745 and name CA", "'K745'")
-cmd.label("E762 and name CA", "'E762'")
+cmd.label("E762 and name CA", "'        E762'")
 cmd.label("resi 5 and name CA", "'N lobe'")
 cmd.label("resi 230 and name CA", "'C lobe'")
-cmd.label("resi 173 and name CA", "'Activation'")
-cmd.label("resi 174 and name CA", "'loop'")
+cmd.label("resi 156 and name CA", "'            Activation'")
+cmd.label("resi 169 and name CA", "'loop        '")
+cmd.label("resi 51 and name CA", "'     αC'")
+cmd.label("resi 52 and name CA", "'     Helix'")
 
-#set label_color, black
-#cmd.png("afig1_1m14.png", width=900, height=1100, dpi=600, ray=1)
+cmd.set_view (\
+     '''0.846367121,    0.315556258,   -0.429026186,\
+     0.431824714,   -0.878101051,    0.206053212,\
+    -0.311695248,   -0.359667838,   -0.879461229,\
+     0.000307433,    0.000218758, -164.785781860,\
+    29.518850327,    8.133912086,   56.190589905,\
+   123.208457947,  206.596878052,  -20.000000000''' )
+
+
+cmd.set("label_color", "black")
+cmd.png("afig1_1m14.png", width=950, height=1100, dpi=600, ray=1)
